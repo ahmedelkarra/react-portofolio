@@ -1,0 +1,64 @@
+.moreOptionsFooter {
+    height: 300px;
+    background-image: linear-gradient(to right bottom, #053733, #8112eb);
+}
+
+.moreOptionLable{
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    transform: translate(-50%,100%);
+    height: 200px;
+    border-radius: 20px;
+    background-color: #002e596c;
+}
+
+.toMakeNestedButton input{
+    position: relative;
+    width: 300px;
+    height: 50px;
+}
+
+.toMakeNestedButton input{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    width: 50%;
+    max-height: 80px;
+    border-radius: 20px;
+    padding: 5px;
+    outline: none;
+    background-color: #8212eb8f;
+    transform: translate(10%,-50%);
+}
+
+.toMakeNestedButton input:focus{
+    background-color: #8212eb57;
+    color: white;
+}
+
+.toMakeNestedButton input::placeholder{
+    color: white;
+}
+
+.toMakeNestedButton button{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    width: 20%;
+    height: 40px;
+    border-radius: 20px;
+    transform: translate(-5%,-50%);
+    color: white;
+    background-image: linear-gradient(to right bottom, #053733, #8112eb);
+}
+
+
+@media (max-width:768px) {
+    .toMakeNestedButton input::placeholder{
+        font-size: 10px;
+    }
+    .toMakeNestedButton{
+        font-size: 10px;
+    }
+}

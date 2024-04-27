@@ -1,0 +1,33 @@
+div.container {
+    height: 100px;
+    width: 80%;
+}
+
+div.container a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid;
+    transition-duration: .5s;
+    padding: 20px;
+}
+
+
+div.container :first-child {
+    border-radius: 40px 0px 0px 40px !important;
+}
+
+div.container :last-child {
+    border-radius: 0 40px 40px 0 !important;
+}
+
+div.container a:hover {
+    background-image: linear-gradient(to right bottom, #053733, #8112eb);
+}
+
+
+
+@media (max-width:768px) {
+    div.container a {
+        padding: 5px;
+    }
+}

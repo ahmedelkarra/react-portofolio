@@ -1,0 +1,97 @@
+.logo {
+    font-weight: 700;
+    color: white !important;
+}
+
+.afterButton {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    border: 1px solid;
+}
+
+.afterButton a {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    transition-duration: .7s;
+}
+
+.afterButton::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    transition-duration: .7s;
+    background-color: rgba(1, 134, 243, 0.808);
+}
+
+.afterButton:hover::after {
+    width: 100%;
+}
+
+.afterButton:hover a {
+    color: black;
+}
+
+.icons {
+    width: 200px;
+    position: relative;
+
+}
+
+.icons .iconAfter {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.icons .iconAfter svg {
+    position: relative;
+    font-size: 25px;
+    border-radius: 50%;
+    color: white;
+}
+
+
+.icons .iconAfter::before {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0%;
+    height: 0%;
+    border-radius: 50%;
+    transition-duration: .5s;
+    background-color: rgba(1, 106, 243, 0.445);
+}
+
+.icons .iconAfter:hover::before {
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width:768px) {
+    .afterButton {
+        width: 150px;
+    }
+}

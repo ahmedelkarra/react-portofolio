@@ -1,0 +1,176 @@
+.moreOption {
+    width: 100%;
+    height: 100vh;
+}
+
+
+img[alt="Sun"] {
+    width: 100px;
+}
+
+
+.sunDiv {
+    position: relative;
+}
+
+.palnetHTML,
+.palnetCSS,
+.palnetJS,
+.palnetRE {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.palnetHTML {
+    width: 150px;
+    height: 150px;
+    animation-name: merkur;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+
+.palnetHTML img {
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    z-index: 2;
+    border-radius: 50%;
+}
+
+@keyframes merkur {
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+.palnetCSS {
+    width: 250px;
+    height: 250px;
+    animation-name: Venus;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+
+.palnetCSS img {
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    z-index: 2;
+    border-radius: 50%;
+}
+
+@keyframes Venus {
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+
+
+
+.palnetJS {
+    width: 350px;
+    height: 350px;
+    animation-name: earth;
+    animation-duration: 13s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+
+.palnetJS img {
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    z-index: 2;
+    border-radius: 50%;
+}
+
+@keyframes earth {
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+
+.palnetRE {
+    width: 450px;
+    height: 450px;
+    animation-name: mars;
+    animation-duration: 16s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+
+.palnetRE img {
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    z-index: 2;
+    border-radius: 50%;
+}
+
+@keyframes mars {
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+
+@media (max-width:768px) {
+    .moreOption {
+        font-size: 10px !important;
+    }
+    img[alt="Sun"] {
+        width: 30px;
+    }
+
+    .palnetHTML img,
+    .palnetCSS img,
+    .palnetJS img,
+    .palnetRE img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .palnetHTML {
+        width: 60px;
+        height: 60px
+    }
+
+    .palnetCSS {
+        width: 120px;
+        height: 120px
+    }
+
+    .palnetJS {
+        width: 180px;
+        height: 180px
+    }
+
+    .palnetRE {
+        width: 240px;
+        height: 240px
+    }
+}

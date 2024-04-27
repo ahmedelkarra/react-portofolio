@@ -1,0 +1,15 @@
+.moreOptions {
+    font-size: 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right bottom, #053733, #8112eb);
+}
+
+.Progressbar {
+    width: 160px;
+    height: 160px;
+}
+
+
+.CircularProgressbar-text {
+    fill: white !important;
+}

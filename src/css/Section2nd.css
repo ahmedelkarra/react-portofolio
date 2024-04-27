@@ -1,0 +1,37 @@
+.mainDevSection {
+    background-image: linear-gradient(to right bottom, #053733, #004861, #0056a7, #0055e3, #8112eb);
+    width: 100%;
+    height: 800px;
+    margin: 0 auto !important;
+}
+
+.mainDevSection>img {
+    width: 200px;
+    height: 200px;
+}
+
+.mainDevSection input {
+    border-radius: 15px;
+}
+
+.mainDevSection input:focus {
+    background-image: linear-gradient(to right bottom, #053733, #8112eb);
+    color: white;
+}
+
+.mainDevSection input:focus::placeholder {
+    color: white;
+}
+
+.mainDevSection textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    resize: none;
+    border-radius: 15px;
+}
+
+.mainDevSection textarea:focus {
+    outline: none !important;
+    border: 3px solid #8112eb;
+}
