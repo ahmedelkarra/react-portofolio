@@ -1,7 +1,7 @@
 # Getting Started with Create React Portofolio
 
 The link leads to a placeholder webpage called "Example Domain." This site is used as a demonstration in documentation and instructional materials. For more information,
-visit https://665329c879e1e261d19c04f1--tubular-meerkat-172e65.netlify.app/
+visit https://react-portofolio-lake.vercel.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
